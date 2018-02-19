@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hangfeng gong\documents\visual studio 2015\projects\finalproject\finalproject\</FILEPATH>
+      <FILENAME>portfoliolist_hangfenggong.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'firstPtr'. </DESCRIPTION>
+    <FUNCTION>PortfolioList::removeFromFront</FUNCTION>
+    <DECORATED>?removeFromFront@PortfolioList@@QEAA_NXZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\hangfeng gong\documents\visual studio 2015\projects\finalproject\finalproject\</FILEPATH>
+        <FILENAME>portfoliolist_hangfenggong.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hangfeng gong\documents\visual studio 2015\projects\finalproject\finalproject\</FILEPATH>
+        <FILENAME>portfoliolist_hangfenggong.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hangfeng gong\documents\visual studio 2015\projects\finalproject\finalproject\</FILEPATH>
+        <FILENAME>portfoliolist_hangfenggong.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hangfeng gong\documents\visual studio 2015\projects\finalproject\finalproject\</FILEPATH>
+        <FILENAME>portfoliolist_hangfenggong.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'firstPtr' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hangfeng gong\documents\visual studio 2015\projects\finalproject\finalproject\</FILEPATH>
+        <FILENAME>portfoliolist_hangfenggong.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'firstPtr' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

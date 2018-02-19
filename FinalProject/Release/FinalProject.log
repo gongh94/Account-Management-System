@@ -1,0 +1,12 @@
+﻿  Account.cpp
+  BankAccount.cpp
+  Main_HangfengGong.cpp
+  PortfolioList.cpp
+  StockAccount.cpp
+StockAccount.cpp(13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  StockNode.cpp
+  Generating code
+  All 241 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  FinalProject.vcxproj -> C:\Users\Hangfeng Gong\Documents\Visual Studio 2015\Projects\FinalProject\Release\FinalProject.exe
+  FinalProject.vcxproj -> C:\Users\Hangfeng Gong\Documents\Visual Studio 2015\Projects\FinalProject\Release\FinalProject.pdb (Full PDB)
